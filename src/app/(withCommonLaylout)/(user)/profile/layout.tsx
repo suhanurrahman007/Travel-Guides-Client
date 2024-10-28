@@ -1,4 +1,4 @@
-import Container from "@/src/components/UI/Container";
+import Container from "@/src/components/ui/Container";
 import { ReactNode } from "react";
 
 export default function layout({ children }: { children: ReactNode }) {

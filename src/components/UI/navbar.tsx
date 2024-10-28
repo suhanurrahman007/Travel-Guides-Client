@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import {
   Navbar as NextUINavbar,
   NavbarContent,
@@ -17,7 +17,6 @@ import NextLink from "next/link";
 import clsx from "clsx";
 
 import { siteConfig } from "@/src/config/site";
-import { ThemeSwitch } from "@/src/components/UI/theme-switch";
 import {
   TwitterIcon,
   GithubIcon,
@@ -28,6 +27,7 @@ import {
 } from "@/src/components/icons";
 import { useUser } from "@/src/context/user.provider";
 import NavbarDropdown from "./NavbarDropdown";
+import { ThemeSwitch } from "./theme-switch";
 
 export const Navbar = () => {
   const { user, isLoading } = useUser();

@@ -1,4 +1,4 @@
-import { Navbar } from "@/src/components/UI/navbar";
+import { Navbar } from "@/src/components/ui/navbar";
 import "@/src/styles/globals.css";
 
 export default function CommonLayout({
